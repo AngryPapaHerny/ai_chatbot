@@ -39,6 +39,4 @@ if st.button("reset"):
     st.session_state.clicked = 0
     
 if st.session_state.clicked:
-    # The message and nested widget will remain on the page
     st.write(f'Button clicked! : {st.session_state.clicked}')
-    # st.slider('Select a value')
